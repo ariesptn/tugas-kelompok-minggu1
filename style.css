@@ -1,0 +1,77 @@
+body{
+    text-align: center;
+    background-color: #00a2bf;
+    background-image: url("https://www.transparenttextures.com/patterns/wavecut.png");
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.nav{
+    position: fixed;
+    text-align: center;
+    font-size: 1em;
+    background-image: url(Indonesia.jpg);
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    padding:1em;
+}
+.nav a{
+    color:black;
+    padding:1em;
+    margin:1em;
+    text-decoration: none;
+    background-color: rgba(240, 240, 240, 0.5);
+}
+.nav a:hover{
+    background-color: rgba(240, 240, 240, 0.75);
+}
+
+.Content {
+    position: relative;
+    top: 3em;
+}
+#Profil p, #Team h3{
+    background-color:rgba(240, 240, 240, 0.25);
+    border-radius: 1em;
+    padding:1em;
+}
+
+.thumbnail {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    overflow: hidden;
+    display:inline-flex;
+  }
+  .thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+  }
+  .thumbnail img.portrait {
+    width: 100%;
+    height: auto;
+  }
+  .thumbnail span{
+      z-index: 50;
+      font-size: 2em;
+      text-align: center;
+      background-color: rgba(240, 240, 240, 0.5);
+      width: 100%;
+      height: 1em;
+  }
+  .fa{
+      border-style: solid;
+      border-radius: 10%;
+      padding:1em;
+      margin:1em;
+      background-color:rgba(20, 20, 20, 0.5);
+      color:white;
+      text-decoration: none;
+  }
